@@ -162,8 +162,9 @@ header .cloudImage {
 
 #aboutSection {
 	background-color: #fcffff;
-	padding: #c47909;
+	padding: 128px 0 128px 0;
 	height: 600px;
+	overflow: hidden;
 }
 
 #aboutSection > .center-helper > .stringImage {
@@ -187,7 +188,7 @@ header .cloudImage {
 	top: 460px;
 	right: 240px;
 	bottom: 0;
-	height: 15%;
+	height: 25%;
 }
 
 #aboutSection > .center-helper > h1,
@@ -195,7 +196,6 @@ header .cloudImage {
 	display: block;
 	width: 100%;
 	text-align: center;
-	margin-top: 50px;
 }
 
 #aboutSection > .center-helper > h1{
@@ -226,7 +226,7 @@ header .cloudImage {
 
 #contactSection {
 	background-color: #DAEEF2;
-	padding: 60px 0 60px 0;
+	padding: 128px 0 128px 0;
 	height: 750px;
 }
 
@@ -241,7 +241,6 @@ header .cloudImage {
 	color: #007991;
 	font-size: 46px;
 	text-align: center;
-	margin-top: 100px;
 }
 
 #contactSection > .zIndexFix > p {
@@ -292,7 +291,7 @@ header .cloudImage {
 
 #contactUsForm > input[type="text"] {
 	height: 40px;
-    width: 48%;
+    width: 49%;
     padding: 0 10px 0 10px;
 	background-color: rgba(255,255,255,0.7);
 }
