@@ -1,0 +1,138 @@
+
+/*
+Forces the element to calculate border and padding in overall width.
+
+REQ: No requirements.
+*/
+.box-sizing{
+	-moz-box-sizing: border-box; 
+    -webkit-box-sizing: border-box; 
+	box-sizing: border-box;
+}
+
+/*
+Makes brick elements suited for sections in flat design.
+
+REQ: No requirements.
+*/
+.jumbojet{
+	position: relative;
+	display: block;
+	width: 100%;
+	overflow: hidden;
+}
+
+/*
+Used to split parent div in two.
+
+REQ: No requirements
+*/
+.left,
+.right{
+	position: relative;
+	display: inline-block;
+	width: 50%;
+	height: 100%;
+}
+
+.left{
+	float: left;
+}
+
+.right{
+	float: right;
+}
+
+/*
+Used to fill absolute divs with relative divs, because of the influence on child elements.
+
+REQ: No requirements. 
+*/
+.relative-hack{
+	position: relative;
+	display: block;
+	height: 100%;
+	width: 100%;
+}
+
+/*
+Used to limit design of the page in center of the screen.
+
+REQ: No requirements.
+*/
+.center-helper{
+	position: relative;
+	display: block;
+	width: 100%;
+	max-width: 1200px;
+	height: 100%;
+	margin: 0 auto;
+}
+
+/*
+Centers the element horizontally.
+
+REQ: Position of an element must be defined.
+*/
+.horizontal-center{
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+/*
+Centers the element vertically.
+
+REQ: Position of an element must be defined.
+*/
+.vertical-center{
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+/*
+Fully centers the element.
+
+REQ: Position of an element must be defined.
+*/
+.full-center{
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+}
+
+/*
+Mostly used to create dialogs.
+
+REQ: Mainly used as bodys first child.
+*/
+.fader{
+	position: absolute;
+    display: none;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+}
+
+/*
+Used for fade animation on dynamic elements.
+
+REQ: No requirements.
+*/
+.transition{
+    transition: .3s ease-in-out;
+}
+
+/*
+Forbids the user to select the text.
+
+REQ: No requirements.
+*/
+.user-select-none{
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
