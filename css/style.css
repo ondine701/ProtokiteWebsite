@@ -41,11 +41,8 @@ header{
 header .kiteImage{
 	position: absolute;
 	left: 145px;
-	right: auto;
 	top: 65px;
-	bottom: 0;
 	height: 90%;
-	background-color: #DAEEF2;
 }
 
 header .center-helper{
@@ -62,7 +59,6 @@ header nav{
 header nav > a{
 	position: relative;
 	display: inline-block;
-	height: 44px;
 	line-height: 44px;
 	margin-left: 20px;
 	margin-right: 20px;
@@ -104,7 +100,6 @@ header p{
 header h1{
 	font-size: 80px;
 	color: #007991;
-	margin: -20px 0 7px 0;
 	font-family: Comfortaa-Bold;
 	margin-top: 80px;
 }
@@ -123,24 +118,23 @@ header p > b{
 	font-weight: 400;
 }
 
-
 header > .center-helper > .headerTextWrapper > a {
 	display: block;
 	height: 60px;
 	width: 200px;
 	line-height: 60px;
+	margin: 0 auto;
+	margin-top: 70px;
 	text-align: center;
 	border-radius: 10px;
 	background-color: #007991;
 	border: 1px solid #007991;
 	color: #fff;
 	text-decoration: none;
-	margin: 0 auto;
 	font-size: 17px;
 	letter-spacing: 3px;
 	outline: none!important;
 	cursor: pointer;
-	margin-top: 70px;
 }
 
 header > .center-helper > .headerTextWrapper > a:focus{
@@ -152,7 +146,6 @@ header .cloudImage {
 	display: inline-block;
 	top: 263px;
 	right: 100px;
-	bottom: 0;
 	height: 30%;
 }
 
@@ -162,9 +155,7 @@ header .cloudImage {
 
 #aboutSection {
 	background-color: #fcffff;
-	padding: 128px 0 128px 0;
 	height: 600px;
-	overflow: hidden;
 }
 
 #aboutSection > .center-helper > .stringImage {
@@ -172,8 +163,9 @@ header .cloudImage {
 	display: inline-block;
 	left: 20px;
 	height: 100%;
+	
 }
-
+	
 #aboutSection > .center-helper > .cloud2Image {
 	position: absolute;
 	display: inline-block;
@@ -185,10 +177,9 @@ header .cloudImage {
 #aboutSection > .center-helper > .cloud3Image {
 	position: absolute;
 	display: inline-block;
-	top: 460px;
-	right: 240px;
-	bottom: 0;
-	height: 25%;
+	top: 420px;
+	right: 140px;
+	height: 18%;
 }
 
 #aboutSection > .center-helper > h1,
@@ -202,6 +193,7 @@ header .cloudImage {
 	color: rgba( 0, 0, 0, 0.6);
 	font-size: 46px;
 	margin-bottom: 20px;
+	margin-top: 128px;
 }
 
 #aboutSection > .center-helper > h2{
@@ -226,21 +218,28 @@ header .cloudImage {
 
 #contactSection {
 	background-color: #DAEEF2;
-	padding: 128px 0 128px 0;
-	height: 750px;
+	height: 700px;
 }
 
 .zIndexFix {
 	position: absolute;
 	z-index: 1000;
 	width: 100%;
-	max-width: 1000px
+	max-width: 1000px;
+}
+
+.string2image {
+	position: absolute;
+	display: inline-block;
+	height: 100%;
+	left: 132px;
 }
 
 #contactSection > .zIndexFix > h1{
 	color: #007991;
 	font-size: 46px;
 	text-align: center;
+	margin-top: 128px;
 }
 
 #contactSection > .zIndexFix > p {
@@ -257,7 +256,6 @@ header .cloudImage {
 	display: inline-block;
 	top: 110px;
 	right: 70px;
-	bottom: 0;
 	height: 15%;
 	z-index: 800;
 }
@@ -266,8 +264,7 @@ header .cloudImage {
 	position: absolute;
 	display: inline-block;
 	top: 500px;
-	right: 160px;
-	bottom: 0;
+	right: 80px;
 	height: 10%;
 	z-index: 800;
 }
@@ -291,7 +288,7 @@ header .cloudImage {
 
 #contactUsForm > input[type="text"] {
 	height: 40px;
-    width: 49%;
+    width: 49.5%;
     padding: 0 10px 0 10px;
 	background-color: rgba(255,255,255,0.7);
 }
@@ -338,12 +335,10 @@ border-color: #90caf9;
 
 footer{
 	background: #333333;
-	padding: 128px 0 128px 0;
 }
 
 footer > h1{
 	display: block;
-	width: 100%;
 	text-align: center;
 	font-size: 42px;
     color: rgba(255,255,255,0.9);
@@ -353,7 +348,6 @@ footer > h1{
 
 footer > p{
 	display: block;
-	width: 100%;
 	text-align: center;
 	font-size: 17px;
 	letter-spacing: 2px;
@@ -389,6 +383,11 @@ footer  > h4{
 }
 
 /*End region Footer*/
+
+@media screen and (max-width: 1200px){
+	
+}
+
 
 
 
