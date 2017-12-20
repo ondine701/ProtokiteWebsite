@@ -34,15 +34,14 @@ body{
 
 header{
 	position: relative;
-	height: 473px;
+	height: 490px;
 	background-color: #DAEEF2;
 }
 
 header .kiteImage{
 	position: absolute;
-	left: 145px;
-	top: 65px;
-	height: 90%;
+	left: 149px;
+	height: 100%;
 }
 
 header .center-helper{
@@ -158,12 +157,15 @@ header .cloudImage {
 	height: 600px;
 }
 
-#aboutSection > .center-helper > .stringImage {
+.zIndex {
+	z-index: 1000;
+}
+
+#aboutSection > .stringImage {
 	position: absolute;
 	display: inline-block;
-	left: 20px;
+	left: 96px;
 	height: 100%;
-	
 }
 	
 #aboutSection > .center-helper > .cloud2Image {
@@ -172,6 +174,7 @@ header .cloudImage {
 	top: 120px;
 	right: 12px;
 	height: 20%;
+	z-index: 500;
 }
 
 #aboutSection > .center-helper > .cloud3Image {
@@ -180,6 +183,7 @@ header .cloudImage {
 	top: 420px;
 	right: 140px;
 	height: 18%;
+	z-index: 500;
 }
 
 #aboutSection > .center-helper > h1,
@@ -231,8 +235,8 @@ header .cloudImage {
 .string2image {
 	position: absolute;
 	display: inline-block;
-	height: 100%;
-	left: 132px;
+	height: 139%;
+    left: 102px;
 }
 
 #contactSection > .zIndexFix > h1{
@@ -384,15 +388,94 @@ footer  > h4{
 
 /*End region Footer*/
 
-@media screen and (max-width: 1200px){
+@media screen and (max-width: 790px){
+	#aboutSection > .center-helper > p {
+	line-height: 27px;
+	font-size: 14px;
+	}	
+
+@media screen and (max-width: 720px){	
+	#aboutSection > .center-helper > p {
+	padding-left: 25px;
+	padding-right: 25px;
+	}	
+	
+	#aboutSection > .center-helper > h1{
+	padding-left: 25px;
+	padding-right: 25px;
+	}
+
+	#aboutSection > .center-helper > h2{
+	padding-left: 25px;
+	padding-right: 25px;
+	}
+	
 	
 }
+	
+@media screen and (max-width: 630px){
+	#aboutSection > .center-helper > h1{
+	font-size: 40px;
+	}
 
+	#aboutSection > .center-helper > h2{
+	font-size: 15px;
+	}
+	
+}	
 
+@media screen and (max-width: 530px){
+	header nav > a{
+		display: none;
+	}
+	
+	header h1 {
+		font-size: 60px;
+		margin-top: 50px;
+	}
+	
+	header p{
+		font-size: 13px;
+	}	
+	
+	header > .center-helper > .headerTextWrapper > a {
+	height: 50px;
+	width: 180px;
+	line-height: 50px;
+	}
+}
 
+@media screen and (max-width: 430px){
+	header .kiteImage{
+	left: 80px;
+	height: 100%;
+	}
+	
+	#aboutSection > .center-helper > h1{
+	font-size: 32px;
+	}
 
+	#aboutSection > .center-helper > h2{
+	font-size: 13px;
+	}
+	
+	#aboutSection > .center-helper > p {
+	line-height: 22px;
+	font-size: 14px;
+	}
+	
+	#aboutSection > .stringImage {
+	left: 29px;
+	}
+}
 
+@media screen and (max-width: 380px){
+	header h1 {
+		font-size: 55px;
+	}
+	
 
+}
 
 
 
