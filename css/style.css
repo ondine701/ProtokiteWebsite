@@ -38,7 +38,7 @@ header{
 	background-color: #DAEEF2;
 }
 
-header .kiteImage{
+header .kite-image{
 	position: absolute;
 	left: 149px;
 	height: 100%;
@@ -76,11 +76,11 @@ header nav > a:hover {
 	opacity: 0.4;
 }
 
-#getInTouchLink {
+#get-in-touch-link {
 	margin-right: 80px;
 }
 
-header .headerTextWrapper{
+header .header-text-wrapper{
 	position: absolute;
 	display: inline-block;
 }
@@ -117,7 +117,7 @@ header p > b{
 	font-weight: 400;
 }
 
-header > .center-helper > .headerTextWrapper > a {
+header > .center-helper > .header-text-wrapper > a {
 	display: block;
 	height: 60px;
 	width: 200px;
@@ -136,11 +136,11 @@ header > .center-helper > .headerTextWrapper > a {
 	cursor: pointer;
 }
 
-header > .center-helper > .headerTextWrapper > a:focus{
+header > .center-helper > .header-text-wrapper > a:focus{
 	border-color: #90caf9;
 }
 
-header .cloudImage {
+header .cloud-image {
 	position: absolute;
 	display: inline-block;
 	top: 263px;
@@ -148,27 +148,23 @@ header .cloudImage {
 	height: 30%;
 }
 
-/*end region Header*/
+/*#endregion Header*/
 
 /*region About*/
 
-#aboutSection {
+#about-section {
 	background-color: #fcffff;
 	height: 600px;
 }
 
-.zIndex {
-	z-index: 1000;
-}
-
-#aboutSection > .stringImage {
+#about-section > .string-image {
 	position: absolute;
 	display: inline-block;
 	left: 96px;
 	height: 100%;
 }
 	
-#aboutSection > .center-helper > .cloud2Image {
+#about-section > .center-helper > .cloud2-image {
 	position: absolute;
 	display: inline-block;
 	top: 120px;
@@ -177,7 +173,7 @@ header .cloudImage {
 	z-index: 500;
 }
 
-#aboutSection > .center-helper > .cloud3Image {
+#about-section > .center-helper > .cloud3-image {
 	position: absolute;
 	display: inline-block;
 	top: 420px;
@@ -186,29 +182,31 @@ header .cloudImage {
 	z-index: 500;
 }
 
-#aboutSection > .center-helper > h1,
-#aboutSection > .center-helper > h2{
+#about-section > .center-helper > .z-index-fix > h1,
+#about-section > .center-helper > .z-index-fix > h2{
 	display: block;
 	width: 100%;
 	text-align: center;
 }
 
-#aboutSection > .center-helper > h1{
+#about-section > .center-helper > .z-index-fix > h1{
 	color: rgba( 0, 0, 0, 0.6);
 	font-size: 46px;
 	margin-bottom: 20px;
 	margin-top: 128px;
+	z-index: 1000;
 }
 
-#aboutSection > .center-helper > h2{
+#about-section > .center-helper > .z-index-fix > h2{
 	color: #6F6F6F;
 	font-weight: 400;
 	font-size: 18px;
 	letter-spacing: 3px;
 	margin-bottom: 48px;
+	z-index: 1000;
 }
 
-#aboutSection > .center-helper > p {
+#about-section > .center-helper > .z-index-fix > p {
 	text-align: center;
 	color: #919191;
 	line-height: 28px;
@@ -216,46 +214,46 @@ header .cloudImage {
 	margin-bottom: 100px;
 }
 
-/*end region About*/
+/*#endregion About*/
 
 /*region Contact*/
 
-#contactSection {
+#contact-section {
 	background-color: #DAEEF2;
 	height: 700px;
 }
 
-.zIndexFix {
+.z-index-fix {
 	position: absolute;
 	z-index: 1000;
 	width: 100%;
 	max-width: 1000px;
 }
 
-.string2image {
+.string2-image {
 	position: absolute;
 	display: inline-block;
 	height: 139%;
     left: 102px;
 }
 
-#contactSection > .zIndexFix > h1{
+#contact-section > .z-index-fix > h1{
 	color: #007991;
 	font-size: 46px;
 	text-align: center;
 	margin-top: 128px;
 }
 
-#contactSection > .zIndexFix > p {
+#contact-section > .z-index-fix > p {
 	color: #007991;
-	font-size: 18px;
+	font-size: 16px;
 	text-align: center;
 	margin-bottom: 20px;
 	margin-top: 30px;
-
+	line-height: 28px;
 }
 
-#contactSection > .cloud4Image {
+#contact-section > .cloud4-image {
 	position: absolute;
 	display: inline-block;
 	top: 110px;
@@ -264,7 +262,7 @@ header .cloudImage {
 	z-index: 800;
 }
 
-#contactSection > .cloud5Image {
+#contact-section > .cloud5-image {
 	position: absolute;
 	display: inline-block;
 	top: 500px;
@@ -273,15 +271,15 @@ header .cloudImage {
 	z-index: 800;
 }
 
-#contactUsForm {
+#contact-us-form {
 	position: relative;
 	max-width: 700px;
 	width: 90%;
 	margin-top: 35px;
 }
 
-#contactUsForm >  input[type="text"],
-#contactUsForm > textarea {
+#contact-us-form >  input[type="text"],
+#contact-us-form > textarea {
 	border: 1px solid #D5D5D4;
 	border-radius: 5px;
 	outline: none!important;
@@ -290,14 +288,14 @@ header .cloudImage {
 	box-shadow: inset 0 0.1em 0.1em 0 rgba(0,0,0,0.05);
 }
 
-#contactUsForm > input[type="text"] {
+#contact-us-form > input[type="text"] {
 	height: 40px;
     width: 49.5%;
     padding: 0 10px 0 10px;
 	background-color: rgba(255,255,255,0.7);
 }
 
-#contactUsForm >  textarea{
+#contact-us-form >  textarea{
 	margin-top: 5px;
 	width: 100%;
 	min-height: 170px;
@@ -305,12 +303,12 @@ header .cloudImage {
 	background-color: rgba(255,255,255,0.7);
 }
 
-#contactUsForm > textarea:focus,
-#contactUsForm > input[type="text"]:focus{
+#contact-us-form > textarea:focus,
+#contact-us-form > input[type="text"]:focus{
 	border-color: #90caf9;
 }
 
-#submitEmailButton  {
+#submit-email-button  {
 	height: 40px;
     border-radius: 5px;
     border: 1px solid #007991;
@@ -325,15 +323,15 @@ header .cloudImage {
 	width:100%;
 }
 
-#submitEmailButton:focus  {
-border-color: #90caf9;
+#submit-email-button:focus  {
+	border-color: #90caf9;
 }
 
-/*End region Contact*/
+/*#endregion Contact*/
 
 /*region Footer*/
 
-#footerSection {
+#footer-section {
 	padding: 128px 0 128px 0;
 }
 
@@ -359,21 +357,21 @@ footer > p{
 	margin-bottom: 35px;
 }
 
-footer > .socialWrapper{
+footer > .social-wrapper{
 	display: flex;
 	width: 140px;
 	margin: 0 auto;
 	margin-bottom: 35px;
 }
 
-footer > .socialWrapper > a{
+footer > .social-wrapper > a{
 	display: inline-block;
 	color: rgba( 255, 255, 255, 0.6);
 	font-size: 36px;
 	margin: 0 auto;
 }
 
-footer > .socialWrapper > a:hover{
+footer > .social-wrapper > a:hover{
 	color: rgba( 255, 255, 255, 0.9);
 	transition-duration: 0.6s;
 }
@@ -386,42 +384,52 @@ footer  > h4{
 	text-align: center;
 }
 
-/*End region Footer*/
+/*#endregion Footer*/
 
 @media screen and (max-width: 790px){
-	#aboutSection > .center-helper > p {
-	line-height: 27px;
-	font-size: 14px;
+	#about-section > .center-helper > .z-index-fix > p {
+		line-height: 27px;
+		font-size: 14px;
 	}	
-
+	
+	#contact-section > .z-index-fix > p {
+		font-size: 14px;
+	}
+	
 @media screen and (max-width: 720px){	
-	#aboutSection > .center-helper > p {
-	padding-left: 25px;
-	padding-right: 25px;
+	#about-section > .center-helper > .z-index-fix > p {
+		padding-left: 25px;
+		padding-right: 25px;
 	}	
 	
-	#aboutSection > .center-helper > h1{
-	padding-left: 25px;
-	padding-right: 25px;
+	#about-section > .center-helper > .z-index-fix > h1{
+		padding-left: 25px;
+		padding-right: 25px;
 	}
 
-	#aboutSection > .center-helper > h2{
-	padding-left: 25px;
-	padding-right: 25px;
+	#about-section > .center-helper > .z-index-fix > h2{
+		padding-left: 25px;
+		padding-right: 25px;
 	}
 	
-	
+	footer > h1, p, h4 {
+		padding-left: 30px;
+		padding-right: 30px;
+	}	
 }
 	
 @media screen and (max-width: 630px){
-	#aboutSection > .center-helper > h1{
-	font-size: 40px;
+	#about-section > .center-helper > .z-index-fix > h1{
+		font-size: 40px;
 	}
 
-	#aboutSection > .center-helper > h2{
-	font-size: 15px;
+	#about-section > .center-helper > .z-index-fix > h2{
+		font-size: 15px;
 	}
 	
+	#contact-section > .z-index-fix > h1 {
+		font-size: 40px;
+	}
 }	
 
 @media screen and (max-width: 530px){
@@ -438,34 +446,49 @@ footer  > h4{
 		font-size: 13px;
 	}	
 	
-	header > .center-helper > .headerTextWrapper > a {
-	height: 50px;
-	width: 180px;
-	line-height: 50px;
+	header > .center-helper > .header-text-wrapper > a {
+		height: 50px;
+		width: 180px;
+		line-height: 50px;
 	}
 }
 
 @media screen and (max-width: 430px){
-	header .kiteImage{
-	left: 80px;
-	height: 100%;
+	header .kite-image{
+		left: 80px;
 	}
 	
-	#aboutSection > .center-helper > h1{
-	font-size: 32px;
+	#about-section > .center-helper > .z-index-fix > h1{
+		font-size: 32px;
 	}
 
-	#aboutSection > .center-helper > h2{
-	font-size: 13px;
+	#about-section > .center-helper > .z-index-fix > h2{
+		font-size: 13px;
 	}
 	
-	#aboutSection > .center-helper > p {
-	line-height: 22px;
-	font-size: 14px;
+	#about-section > .center-helper > .z-index-fix > p {
+		line-height: 22px;
+		font-size: 14px;
 	}
 	
-	#aboutSection > .stringImage {
-	left: 29px;
+	#about-section > .string-image {
+		left: 29px;
+	}
+	
+	.string2-image {
+    left: 34px;
+	}
+	
+	footer > h1 {
+		font-size: 37px;
+	}
+	
+	footer > p {
+		font-size: 15px;
+	}
+	
+	footer > h4 {
+		font-size: 12px;
 	}
 }
 
@@ -474,18 +497,11 @@ footer  > h4{
 		font-size: 55px;
 	}
 	
-
+	#contact-us-form > input[type="text"] {
+		width: 100%;
+		margin-bottom: 5px;
+	}
+	
+	#contact-us-form >  textarea{
+		margin-top: 0px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-

@@ -1,14 +1,14 @@
 $(document).ready(function() {
-	$('#getInTouchLink').on('click', function() {
+	$('#get-in-touch-link').on('click', function() {
 		$("html, body").animate({ scrollTop: $('footer').offset().top }, 1000);
 	});
 	
-	$('#contactLink').on('click', function() {
-		$("html, body").animate({ scrollTop: $('#contactSection').offset().top }, 1000);
+	$('#contact-link').on('click', function() {
+		$("html, body").animate({ scrollTop: $('#contact-section').offset().top }, 1000);
 	});
 	
-	$('#aboutLink').on('click', function() {
-		$("html, body").animate({ scrollTop: $('#aboutSection').offset().top }, 1000);
+	$('#about-link').on('click', function() {
+		$("html, body").animate({ scrollTop: $('#about-section').offset().top }, 1000);
 	});
 	
 });
