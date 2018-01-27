@@ -30,12 +30,12 @@ body{
 	overflow: hidden;
 }
 
-/*region Header*/
+/*#region Header*/
 
 header{
 	position: relative;
 	height: 490px;
-	background-color: #DAEEF2;
+	background-color: #bfebff;
 }
 
 header .kite-image{
@@ -146,11 +146,12 @@ header .cloud-image {
 	top: 263px;
 	right: 100px;
 	height: 30%;
+	opacity: 0.9;
 }
 
 /*#endregion Header*/
 
-/*region About*/
+/*#region About*/
 
 #about-section {
 	background-color: #fcffff;
@@ -216,10 +217,10 @@ header .cloud-image {
 
 /*#endregion About*/
 
-/*region Contact*/
+/*#region Contact*/
 
 #contact-section {
-	background-color: #DAEEF2;
+	background-color: #bfebff;
 	height: 700px;
 }
 
@@ -234,7 +235,8 @@ header .cloud-image {
 	position: absolute;
 	display: inline-block;
 	height: 139%;
-    left: 102px;
+	left: 102px;
+	opacity: 0.9;
 }
 
 #contact-section > .z-index-fix > h1{
@@ -260,6 +262,7 @@ header .cloud-image {
 	right: 70px;
 	height: 15%;
 	z-index: 800;
+	opacity: 0.9;
 }
 
 #contact-section > .cloud5-image {
@@ -269,6 +272,7 @@ header .cloud-image {
 	right: 80px;
 	height: 10%;
 	z-index: 800;
+	opacity: 0.9;
 }
 
 #contact-us-form {
@@ -292,7 +296,7 @@ header .cloud-image {
 	height: 40px;
     width: 49.5%;
     padding: 0 10px 0 10px;
-	background-color: rgba(255,255,255,0.7);
+	opacity: 0.8;
 }
 
 #contact-us-form >  textarea{
@@ -300,7 +304,7 @@ header .cloud-image {
 	width: 100%;
 	min-height: 170px;
 	padding: 14px 10px 14px 10px;
-	background-color: rgba(255,255,255,0.7);
+	opacity: 0.8;
 }
 
 #contact-us-form > textarea:focus,
@@ -329,7 +333,7 @@ header .cloud-image {
 
 /*#endregion Contact*/
 
-/*region Footer*/
+/*#region Footer*/
 
 #footer-section {
 	padding: 128px 0 128px 0;
@@ -385,6 +389,16 @@ footer  > h4{
 }
 
 /*#endregion Footer*/
+
+@media screen and (max-width: 850px){
+	header nav{
+		display: none;
+	}
+
+	header .cloud-image {
+		display: none;
+	}
+}
 
 @media screen and (max-width: 790px){
 	#about-section > .center-helper > .z-index-fix > p {
@@ -456,6 +470,10 @@ footer  > h4{
 @media screen and (max-width: 430px){
 	header .kite-image{
 		left: 80px;
+		opacity: 0.7;
+	}
+	#contact-section > .cloud4-image {
+		opacity: 0.8;
 	}
 	
 	#about-section > .center-helper > .z-index-fix > h1{
