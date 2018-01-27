@@ -1,0 +1,512 @@
+@font-face{
+	font-family: 'Comfortaa-Bold';
+	src: url('../fonts/Comfortaa-Bold.ttf');
+}
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: Sans-Serif;
+	min-width: 370px;
+}
+
+.center-helper{
+	overflow: hidden;
+}
+
+/*#region Header*/
+
+header{
+	position: relative;
+	height: 490px;
+	background-color: #bfebff;
+}
+
+header .kite-image{
+	position: absolute;
+	left: 149px;
+	height: 100%;
+}
+
+header .center-helper{
+	overflow: hidden;
+}
+
+header nav{
+	display: block;
+	width: 100%;
+	margin-top: 20px;
+	overflow: hidden;
+}
+
+header nav > a{
+	position: relative;
+	display: inline-block;
+	line-height: 44px;
+	margin-left: 20px;
+	margin-right: 20px;
+	font-size: 14px;
+	font-weight: 600;
+	letter-spacing: 2px;
+	color: #007991;
+	text-decoration: none;
+	text-transform: uppercase;
+	float: right;
+	opacity: 0.9;
+	transition-duration: 0.5s;
+}
+
+header nav > a:hover {
+	opacity: 0.4;
+}
+
+#get-in-touch-link {
+	margin-right: 80px;
+}
+
+header .header-text-wrapper{
+	position: absolute;
+	display: inline-block;
+}
+
+div .full-center{
+	top:50%;
+	left:50%;
+	transform:translateX(-50%) translateY(-50%)
+}
+
+header h1,
+header p{
+	display: block;
+}
+
+header h1{
+	font-size: 80px;
+	color: #007991;
+	font-family: Comfortaa-Bold;
+	margin-top: 80px;
+}
+
+header p{
+	font-size: 16px;
+	color: #007991;
+	margin-top: 3px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+header p > b{
+	color: #20b7c1;
+	font-weight: 400;
+}
+
+header > .center-helper > .header-text-wrapper > a {
+	display: block;
+	height: 60px;
+	width: 200px;
+	line-height: 60px;
+	margin: 0 auto;
+	margin-top: 70px;
+	text-align: center;
+	border-radius: 10px;
+	background-color: #007991;
+	border: 1px solid #007991;
+	color: #fff;
+	text-decoration: none;
+	font-size: 17px;
+	letter-spacing: 3px;
+	outline: none!important;
+	cursor: pointer;
+}
+
+header > .center-helper > .header-text-wrapper > a:focus{
+	border-color: #90caf9;
+}
+
+header .cloud-image {
+	position: absolute;
+	display: inline-block;
+	top: 263px;
+	right: 100px;
+	height: 30%;
+	opacity: 0.9;
+}
+
+/*#endregion Header*/
+
+/*#region About*/
+
+#about-section {
+	background-color: #fcffff;
+	height: 600px;
+}
+
+#about-section > .string-image {
+	position: absolute;
+	display: inline-block;
+	left: 96px;
+	height: 100%;
+}
+	
+#about-section > .center-helper > .cloud2-image {
+	position: absolute;
+	display: inline-block;
+	top: 120px;
+	right: 12px;
+	height: 20%;
+	z-index: 500;
+}
+
+#about-section > .center-helper > .cloud3-image {
+	position: absolute;
+	display: inline-block;
+	top: 420px;
+	right: 140px;
+	height: 18%;
+	z-index: 500;
+}
+
+#about-section > .center-helper > .z-index-fix > h1,
+#about-section > .center-helper > .z-index-fix > h2{
+	display: block;
+	width: 100%;
+	text-align: center;
+}
+
+#about-section > .center-helper > .z-index-fix > h1{
+	color: rgba( 0, 0, 0, 0.6);
+	font-size: 46px;
+	margin-bottom: 20px;
+	margin-top: 128px;
+	z-index: 1000;
+}
+
+#about-section > .center-helper > .z-index-fix > h2{
+	color: #6F6F6F;
+	font-weight: 400;
+	font-size: 18px;
+	letter-spacing: 3px;
+	margin-bottom: 48px;
+	z-index: 1000;
+}
+
+#about-section > .center-helper > .z-index-fix > p {
+	text-align: center;
+	color: #919191;
+	line-height: 28px;
+	font-size: 16px;
+	margin-bottom: 100px;
+}
+
+/*#endregion About*/
+
+/*#region Contact*/
+
+#contact-section {
+	background-color: #bfebff;
+	height: 700px;
+}
+
+.z-index-fix {
+	position: absolute;
+	z-index: 1000;
+	width: 100%;
+	max-width: 1000px;
+}
+
+.string2-image {
+	position: absolute;
+	display: inline-block;
+	height: 139%;
+	left: 102px;
+	opacity: 0.9;
+}
+
+#contact-section > .z-index-fix > h1{
+	color: #007991;
+	font-size: 46px;
+	text-align: center;
+	margin-top: 128px;
+}
+
+#contact-section > .z-index-fix > p {
+	color: #007991;
+	font-size: 16px;
+	text-align: center;
+	margin-bottom: 20px;
+	margin-top: 30px;
+	line-height: 28px;
+}
+
+#contact-section > .cloud4-image {
+	position: absolute;
+	display: inline-block;
+	top: 110px;
+	right: 70px;
+	height: 15%;
+	z-index: 800;
+	opacity: 0.9;
+}
+
+#contact-section > .cloud5-image {
+	position: absolute;
+	display: inline-block;
+	top: 500px;
+	right: 80px;
+	height: 10%;
+	z-index: 800;
+	opacity: 0.9;
+}
+
+#contact-us-form {
+	position: relative;
+	max-width: 700px;
+	width: 90%;
+	margin-top: 35px;
+}
+
+#contact-us-form >  input[type="text"],
+#contact-us-form > textarea {
+	border: 1px solid #D5D5D4;
+	border-radius: 5px;
+	outline: none!important;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 15px;
+	box-shadow: inset 0 0.1em 0.1em 0 rgba(0,0,0,0.05);
+}
+
+#contact-us-form > input[type="text"] {
+	height: 40px;
+    width: 49.5%;
+    padding: 0 10px 0 10px;
+	opacity: 0.8;
+}
+
+#contact-us-form >  textarea{
+	margin-top: 5px;
+	width: 100%;
+	min-height: 170px;
+	padding: 14px 10px 14px 10px;
+	opacity: 0.8;
+}
+
+#contact-us-form > textarea:focus,
+#contact-us-form > input[type="text"]:focus{
+	border-color: #90caf9;
+}
+
+#submit-email-button  {
+	height: 40px;
+    border-radius: 5px;
+    border: 1px solid #007991;
+    cursor: pointer;
+    outline: none;
+    background-color: #007991;
+    color: #fff;
+    padding-left: 14px;
+    padding-right: 14px;
+    font-size: 14px;
+    margin-top: 10px;
+	width:100%;
+}
+
+#submit-email-button:focus  {
+	border-color: #90caf9;
+}
+
+/*#endregion Contact*/
+
+/*#region Footer*/
+
+#footer-section {
+	padding: 128px 0 128px 0;
+}
+
+footer{
+	background: #333333;
+}
+
+footer > h1{
+	display: block;
+	text-align: center;
+	font-size: 42px;
+    color: rgba(255,255,255,0.9);
+	font-weight: 600;
+	margin-bottom: 18px;
+}
+
+footer > p{
+	display: block;
+	text-align: center;
+	font-size: 17px;
+	letter-spacing: 2px;
+	color: #6F6F6F;
+	margin-bottom: 35px;
+}
+
+footer > .social-wrapper{
+	display: flex;
+	width: 140px;
+	margin: 0 auto;
+	margin-bottom: 35px;
+}
+
+footer > .social-wrapper > a{
+	display: inline-block;
+	color: rgba( 255, 255, 255, 0.6);
+	font-size: 36px;
+	margin: 0 auto;
+}
+
+footer > .social-wrapper > a:hover{
+	color: rgba( 255, 255, 255, 0.9);
+	transition-duration: 0.6s;
+}
+
+footer  > h4{
+	font-size: 14px;
+	color: #6F6F6F;
+	font-weight: 600;
+	letter-spacing: 2px;
+	text-align: center;
+}
+
+/*#endregion Footer*/
+
+@media screen and (max-width: 850px){
+	header nav{
+		display: none;
+	}
+
+	header .cloud-image {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 790px){
+	#about-section > .center-helper > .z-index-fix > p {
+		line-height: 27px;
+		font-size: 14px;
+	}	
+	
+	#contact-section > .z-index-fix > p {
+		font-size: 14px;
+	}
+	
+@media screen and (max-width: 720px){	
+	#about-section > .center-helper > .z-index-fix > p {
+		padding-left: 25px;
+		padding-right: 25px;
+	}	
+	
+	#about-section > .center-helper > .z-index-fix > h1{
+		padding-left: 25px;
+		padding-right: 25px;
+	}
+
+	#about-section > .center-helper > .z-index-fix > h2{
+		padding-left: 25px;
+		padding-right: 25px;
+	}
+	
+	footer > h1, p, h4 {
+		padding-left: 30px;
+		padding-right: 30px;
+	}	
+}
+	
+@media screen and (max-width: 630px){
+	#about-section > .center-helper > .z-index-fix > h1{
+		font-size: 40px;
+	}
+
+	#about-section > .center-helper > .z-index-fix > h2{
+		font-size: 15px;
+	}
+	
+	#contact-section > .z-index-fix > h1 {
+		font-size: 40px;
+	}
+}	
+
+@media screen and (max-width: 530px){
+	header nav > a{
+		display: none;
+	}
+	
+	header h1 {
+		font-size: 60px;
+		margin-top: 50px;
+	}
+	
+	header p{
+		font-size: 13px;
+	}	
+	
+	header > .center-helper > .header-text-wrapper > a {
+		height: 50px;
+		width: 180px;
+		line-height: 50px;
+	}
+}
+
+@media screen and (max-width: 430px){
+	header .kite-image{
+		left: 80px;
+		opacity: 0.7;
+	}
+	#contact-section > .cloud4-image {
+		opacity: 0.8;
+	}
+	
+	#about-section > .center-helper > .z-index-fix > h1{
+		font-size: 32px;
+	}
+
+	#about-section > .center-helper > .z-index-fix > h2{
+		font-size: 13px;
+	}
+	
+	#about-section > .center-helper > .z-index-fix > p {
+		line-height: 22px;
+		font-size: 14px;
+	}
+	
+	#about-section > .string-image {
+		left: 29px;
+	}
+	
+	.string2-image {
+    left: 34px;
+	}
+	
+	footer > h1 {
+		font-size: 37px;
+	}
+	
+	footer > p {
+		font-size: 15px;
+	}
+	
+	footer > h4 {
+		font-size: 12px;
+	}
+}
+
+@media screen and (max-width: 380px){
+	header h1 {
+		font-size: 55px;
+	}
+	
+	#contact-us-form > input[type="text"] {
+		width: 100%;
+		margin-bottom: 5px;
+	}
+	
+	#contact-us-form >  textarea{
+		margin-top: 0px;
+}
